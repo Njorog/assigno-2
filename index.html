@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>UpConstruction Bootstrap Template - Index</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: UpConstruction
+  * Updated: Jan 29 2024 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-center">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1>PIONEER HIGH SCHOOL<span>.</span></h1>
+      </a>
+
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+
+<!--          <li><a href="services.html">Services</a></li>-->
+<!--          <li><a href="projects.html">Performance's</a></li>-->
+
+<!--          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>-->
+<!--            <ul>-->
+<!--              <li><a href="#">Dropdown 1</a></li>-->
+<!--              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>-->
+<!--                <ul>-->
+<!--                  <li><a href="#">Deep Dropdown 1</a></li>-->
+<!--                  <li><a href="#">Deep Dropdown 2</a></li>-->
+<!--                  <li><a href="#">Deep Dropdown 3</a></li>-->
+<!--                  <li><a href="#">Deep Dropdown 4</a></li>-->
+<!--                  <li><a href="#">Deep Dropdown 5</a></li>-->
+<!--                </ul>-->
+<!--              </li>-->
+<!--              <li><a href="#">Dropdown 2</a></li>-->
+<!--              <li><a href="#">Dropdown 3</a></li>-->
+<!--              <li><a href="#">Dropdown 4</a></li>-->
+<!--            </ul>-->
+<!--          </li>-->
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero">
+
+    <div class="info d-flex align-items-center">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 text-center">
+            <h2 data-aos="fade-down">Welcome to <span>PIONEER  HIGH SCHOOL</span></h2>
+            <p data-aos="fade-up">VITAE ABUNDANTAE.</p>
+            <a data-aos="fade-up" data-aos-delay="200" href="#get-started" class="btn-get-started">Get Started</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+
+      <div class="carousel-item active" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaFY1a1xnsMx9kvU0L2r2JAtvQyOshpovvKF_7Cxdg-kQh3wEwRf9UnfVwLfTw43gIQyE&usqp=CAU)"></div>
+      <div class="carousel-item" style="background-image: url(data:image/jpeg;base64,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)"></div>
+      <div class="carousel-item" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9TpuWE_Rh2L3erP-dz7GiC87FouGYxpLOAg&usqp=CAU)"></div>
+      <div class="carousel-item" style="background-image: url(data:image/jpeg;base64,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)"></div>
+      <div class="carousel-item" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_vhYpZ0j6Ll2T1WPmuZLHSkXvN3SX0U-Cmg&usqp=CAU)"></div>
+
+      <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+
+    </div>
+
+  </section><!-- End Hero Section -->
+
+  <main id="main">
+
+    <!-- ======= Get Started Section ======= -->
+    <section id="get-started" class="get-started section-bg">
+      <div class="container">
+
+        <div class="row justify-content-between gy-4">
+
+          <div class="col-lg-6 d-flex align-items-center" data-aos="fade-up">
+            <div class="content">
+              <h3>SCHOOL ANTHEM.</h3>
+              <p>Life in abundance,working around the clock.Self drive in getting the best,God bless Pioneer .
+              <p>Glory we glorify our name as we change the way's of pioneer.In pathway's of excellence rich resoure and marvellous through the spirit of hard work we become the agents of change.Gloriy we glorify our name as we change the ways of pioneer let us work the spirit of hardwork as we belive in abundance in life</p>
+            </div>
+          </div>
+
+          <div class="col-lg-5" data-aos="fade">
+            <form action="forms/quote.php" method="post" class="php-email-form">
+              <h3>Get a quote</h3>
+              <p>Fill in your details.</p>
+              <div class="row gy-3">
+
+                <div class="col-md-12">
+                  <input type="text" name="name" class="form-control" placeholder="Name" required>
+                </div>
+
+                <div class="col-md-12 ">
+                  <input type="email" class="form-control" name="email" placeholder="Email" required>
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="phone" placeholder="Phone" required>
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your quote request has been sent successfully. Thank you!</div>
+
+                  <button type="submit">Get a quote</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Quote Form -->
+
+        </div>
+
+      </div>
+    </section><!-- End Get Started Section -->
+
+    <!-- ======= Constructions Section ======= -->
+    <section id="constructions" class="constructions">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>OUR SCHOOL</h2>
+          <p>Established in the year 2000;Our purpose is to change the morals and lifes of young men and also women.Apart from educational gains we also ensure they have good morals.</p>
+        </div>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg" style="background-image: url(assets/img/images.jpeg);"></div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Sports.</h4>
+                    <p>Apart from education we also participate in sporting activites.Recently having reached the nationals level in basketball and swimming.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Card Item -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg" style="background-image: url(assets/img/images.png);"></div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Form 1 admission</h4>
+                    <p>We are welcoming all the class 8 leavers to join our school.To get the best educational services they can get.Pioner is the school of choice</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Card Item -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg" style="background-image: url(assets/img/PIONEER-SCHOOL-EMBLEM-1-254x300.png);"></div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Educational activities</h4>
+                    <p>As Nelson Mandela once quoted"Education is the best gift you can give to a child".We enforce education on our students and we are serious about helping our young adults to discover their careers</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Card Item -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg" style="background-image: url(assets/img/five.jpg);"></div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">EXTRA FACILITIES</h4>
+                    <p> We offer chinese lessons to our students.Apart from that we have started offering marine lessons to inculcate these skills to our student's</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Card Item -->
+
+        </div>
+
+      </div>
+    </section><!-- End Constructions Section -->
+
+    <!-- ======= Services Section ======= -->
+<!--    <section id="services" class="services section-bg">-->
+<!--      <div class="container" data-aos="fade-up">-->
+
+<!--        <div class="section-header">-->
+<!--          <h2>Services</h2>-->
+<!--          <p>Voluptatem quibusdam ut ullam perferendis repellat non ut consequuntur est eveniet deleniti fignissimos eos quam</p>-->
+<!--        </div>-->
+
+<!--        <div class="row gy-4">-->
+
+<!--          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">-->
+<!--            <div class="service-item  position-relative">-->
+<!--              <div class="icon">-->
+<!--                <i class="fa-solid fa-mountain-city"></i>-->
+<!--              </div>-->
+<!--              <h3>Nesciunt Mete</h3>-->
+<!--              <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>-->
+<!--              <a href="service-details.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>-->
+<!--            </div>-->
+<!--          </div>&lt;!&ndash; End Service Item &ndash;&gt;-->
+
+<!--          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">-->
+<!--            <div class="service-item position-relative">-->
+<!--              <div class="icon">-->
+<!--                <i class="fa-solid fa-arrow-up-from-ground-water"></i>-->
+<!--              </div>-->
+<!--              <h3>Eosle Commodi</h3>-->
+<!--              <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>-->
+<!--              <a href="service-details.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>-->
+<!--            </div>-->
+<!--          </div>&lt;!&ndash; End Service Item &ndash;&gt;-->
+
+<!--          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">-->
+<!--            <div class="service-item position-relative">-->
+<!--              <div class="icon">-->
+<!--                <i class="fa-solid fa-compass-drafting"></i>-->
+<!--              </div>-->
+<!--              <h3>Ledo Markt</h3>-->
+<!--              <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>-->
+<!--              <a href="service-details.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>-->
+<!--            </div>-->
+<!--          </div>&lt;!&ndash; End Service Item &ndash;&gt;-->
+
+<!--          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">-->
+<!--            <div class="service-item position-relative">-->
+<!--              <div class="icon">-->
+<!--                <i class="fa-solid fa-trowel-bricks"></i>-->
+<!--              </div>-->
+<!--              <h3>Asperiores Commodit</h3>-->
+<!--              <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>-->
+<!--              <a href="service-details.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>-->
+<!--            </div>-->
+<!--          </div>&lt;!&ndash; End Service Item &ndash;&gt;-->
+
+<!--          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">-->
+<!--            <div class="service-item position-relative">-->
+<!--              <div class="icon">-->
+<!--                <i class="fa-solid fa-helmet-safety"></i>-->
+<!--              </div>-->
+<!--              <h3>Velit Doloremque</h3>-->
+<!--              <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>-->
+<!--              <a href="service-details.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>-->
+<!--            </div>-->
+<!--          </div>&lt;!&ndash; End Service Item &ndash;&gt;-->
+
+<!--          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">-->
+<!--            <div class="service-item position-relative">-->
+<!--              <div class="icon">-->
+<!--                <i class="fa-solid fa-arrow-up-from-ground-water"></i>-->
+<!--              </div>-->
+<!--              <h3>Dolori Architecto</h3>-->
+<!--              <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>-->
+<!--              <a href="service-details.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>-->
+<!--            </div>-->
+<!--          </div>&lt;!&ndash; End Service Item &ndash;&gt;-->
+
+<!--        </div>-->
+
+<!--      </div>-->
+<!--    </section>&lt;!&ndash; End Services Section &ndash;&gt;-->
+
+    <!-- ======= Alt Services Section ======= -->
+<!--    ser&lt;!&ndash; End Alt Services Section &ndash;&gt;-->
+
+    <!-- ======= Features Section ======= -->
+<!--    <section id="features" class="features section-bg">-->
+<!--      <div class="container" data-aos="fade-up">-->
+
+<!--        <ul class="nav nav-tabs row  g-2 d-flex">-->
+
+<!--          <li class="nav-item col-3">-->
+<!--            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-1">-->
+<!--              <h4>Modisit</h4>-->
+<!--            </a>-->
+<!--          </li>&lt;!&ndash; End tab nav item &ndash;&gt;-->
+
+<!--          <li class="nav-item col-3">-->
+<!--            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">-->
+<!--              <h4>Praesenti</h4>-->
+<!--            </a>&lt;!&ndash; End tab nav item &ndash;&gt;-->
+
+<!--          <li class="nav-item col-3">-->
+<!--            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">-->
+<!--              <h4>Explica</h4>-->
+<!--            </a>-->
+<!--          </li>&lt;!&ndash; End tab nav item &ndash;&gt;-->
+
+<!--          <li class="nav-item col-3">-->
+<!--            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-4">-->
+<!--              <h4>Nostrum</h4>-->
+<!--            </a>-->
+<!--          </li>&lt;!&ndash; End tab nav item &ndash;&gt;-->
+
+<!--        </ul>-->
+
+<!--        <div class="tab-content">-->
+
+<!--          <div class="tab-pane active show" id="tab-1">-->
+<!--            <div class="row">-->
+<!--              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">-->
+<!--                <h3>Voluptatem dignissimos provident</h3>-->
+<!--                <p class="fst-italic">-->
+<!--                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore-->
+<!--                  magna aliqua.-->
+<!--                </p>-->
+<!--                <ul>-->
+<!--                  <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>-->
+<!--                  <li><i class="bi bi-check2-all"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>-->
+<!--                  <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>-->
+<!--                </ul>-->
+<!--              </div>-->
+<!--              <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">-->
+<!--                <img src="assets/img/features-1.jpg" alt="" class="img-fluid">-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>&lt;!&ndash; End tab content item &ndash;&gt;-->
+
+<!--          <div class="tab-pane" id="tab-2">-->
+<!--            <div class="row">-->
+<!--              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">-->
+<!--                <h3>Neque exercitationem debitis</h3>-->
+<!--                <p class="fst-italic">-->
+<!--                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore-->
+<!--                  magna aliqua.-->
+<!--                </p>-->
+<!--                <ul>-->
+<!--                  <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>-->
+<!--                  <li><i class="bi bi-check2-all"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>-->
+<!--                  <li><i class="bi bi-check2-all"></i> Provident mollitia neque rerum asperiores dolores quos qui a. Ipsum neque dolor voluptate nisi sed.</li>-->
+<!--                  <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>-->
+<!--                </ul>-->
+<!--              </div>-->
+<!--              <div class="col-lg-6 order-1 order-lg-2 text-center">-->
+<!--                <img src="assets/img/features-2.jpg" alt="" class="img-fluid">-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>&lt;!&ndash; End tab content item &ndash;&gt;-->
+
+<!--          <div class="tab-pane" id="tab-3">-->
+<!--            <div class="row">-->
+<!--              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">-->
+<!--                <h3>Voluptatibus commodi accusamu</h3>-->
+<!--                <ul>-->
+<!--                  <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>-->
+<!--                  <li><i class="bi bi-check2-all"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>-->
+<!--                  <li><i class="bi bi-check2-all"></i> Provident mollitia neque rerum asperiores dolores quos qui a. Ipsum neque dolor voluptate nisi sed.</li>-->
+<!--                </ul>-->
+<!--                <p class="fst-italic">-->
+<!--                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore-->
+<!--                  magna aliqua.-->
+<!--                </p>-->
+<!--              </div>-->
+<!--              <div class="col-lg-6 order-1 order-lg-2 text-center">-->
+<!--                <img src="assets/img/features-3.jpg" alt="" class="img-fluid">-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>&lt;!&ndash; End tab content item &ndash;&gt;-->
+
+<!--          <div class="tab-pane" id="tab-4">-->
+<!--            <div class="row">-->
+<!--              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">-->
+<!--                <h3>Omnis fugiat ea explicabo sunt</h3>-->
+<!--                <p class="fst-italic">-->
+<!--                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore-->
+<!--                  magna aliqua.-->
+<!--                </p>-->
+<!--                <ul>-->
+<!--                  <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>-->
+<!--                  <li><i class="bi bi-check2-all"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>-->
+<!--                  <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>-->
+<!--                </ul>-->
+<!--              </div>-->
+<!--              <div class="col-lg-6 order-1 order-lg-2 text-center">-->
+<!--                <img src="assets/img/features-4.jpg" alt="" class="img-fluid">-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>&lt;!&ndash; End tab content item &ndash;&gt;-->
+
+<!--        </div>-->
+
+<!--      </div>-->
+<!--    </section>&lt;!&ndash; End Features Section &ndash;&gt;-->
+
+    <!-- ======= Our Projects Section ======= -->
+<!--    <section id="projects" class="projects">-->
+<!--      <div class="container" data-aos="fade-up">-->
+
+<!--        <div class="section-header">-->
+<!--          <h2>Our Projects</h2>-->
+<!--          <p>Consequatur libero assumenda est voluptatem est quidem illum et officia imilique qui vel architecto accusamus fugit aut qui distinctio</p>-->
+<!--        </div>-->
+
+<!--        <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry" data-portfolio-sort="original-order">-->
+
+<!--          <ul class="portfolio-flters" data-aos="fade-up" data-aos-delay="100">-->
+<!--            <li data-filter="*" class="filter-active">All</li>-->
+<!--            <li data-filter=".filter-remodeling">Remodeling</li>-->
+<!--            <li data-filter=".filter-construction">Construction</li>-->
+<!--            <li data-filter=".filter-repairs">Repairs</li>-->
+<!--            <li data-filter=".filter-design">Design</li>-->
+<!--          </ul>&lt;!&ndash; End Projects Filters &ndash;&gt;-->
+
+<!--          <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">-->
+
+<!--            <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">-->
+<!--              <div class="portfolio-content h-100">-->
+<!--                <img src="assets/img/projects/remodeling-1.jpg" class="img-fluid" alt="">-->
+<!--                <div class="portfolio-info">-->
+<!--                  <h4>Remodeling 1</h4>-->
+<!--                  <p>Lorem ipsum, dolor sit amet consectetur</p>-->
+<!--                  <a href="assets/img/projects/remodeling-1.jpg" title="Remodeling 1" data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>-->
+<!--                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>&lt;!&ndash; End Projects Item &ndash;&gt;-->
+
+<!--            <div class="col-lg-4 col-md-6 portfolio-item filter-construction">-->
+<!--              <div class="portfolio-content h-100">-->
+<!--                <img src="assets/img/projects/construction-1.jpg" class="img-fluid" alt="">-->
+<!--                <div class="portfolio-info">-->
+<!--                  <h4>Construction 1</h4>-->
+<!--                  <p>Lorem ipsum, dolor sit amet consectetur</p>-->
+<!--                  <a href="assets/img/projects/construction-1.jpg" title="Construction 1" data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>-->
+<!--                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>&lt;!&ndash; End Projects Item &ndash;&gt;-->
+
+<!--            <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">-->
+<!--              <div class="portfolio-content h-100">-->
+<!--                <img src="assets/img/projects/repairs-1.jpg" class="img-fluid" alt="">-->
+<!--                <div class="portfolio-info">-->
+<!--                  <h4>Repairs 1</h4>-->
+<!--                  <p>Lorem ipsum, dolor sit amet consectetur</p>-->
+<!--                  <a href="assets/img/projects/repairs-1.jpg" title="Repairs 1" data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>-->
+<!--                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>&lt;!&ndash; End Projects Item &ndash;&gt;-->
+
+<!--            <div class="col-lg-4 col-md-6 portfolio-item filter-design">-->
+<!--              <div class="portfolio-content h-100">-->
+<!--                <img src="assets/img/projects/design-1.jpg" class="img-fluid" alt="">-->
+<!--                <div class="portfolio-info">-->
+<!--                  <h4>Design 1</h4>-->
+<!--                  <p>Lorem ipsum, dolor sit amet consectetur</p>-->
+<!--                  <a href="assets/img/projects/design-1.jpg" title="Repairs 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>-->
+<!--                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>&lt;!&ndash; End Projects Item &ndash;&gt;-->
+
+<!--            <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">-->
+<!--              <div class="portfolio-content h-100">-->
+<!--                <img src="assets/img/projects/remodeling-2.jpg" class="img-fluid" alt="">-->
+<!--                <div class="portfolio-info">-->
+<!--                  <h4>Remodeling 2</h4>-->
+<!--                  <p>Lorem ipsum, dolor sit amet consectetur</p>-->
+<!--                  <a href="assets/img/projects/remodeling-2.jpg" title="Remodeling 2" data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>-->
+<!--                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>&lt;!&ndash; End Projects Item &ndash;&gt;-->
+
+<!--            <div class="col-lg-4 col-md-6 portfolio-item filter-construction">-->
+<!--              <div class="portfolio-content h-100">-->
+<!--                <img src="assets/img/projects/construction-2.jpg" class="img-fluid" alt="">-->
+<!--                <div class="portfolio-info">-->
+<!--                  <h4>Construction 2</h4>-->
+<!--                  <p>Lorem ipsum, dolor sit amet consectetur</p>-->
+<!--                  <a href="assets/img/projects/construction-2.jpg" title="Construction 2" data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>-->
+<!--                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>&lt;!&ndash; End Projects Item &ndash;&gt;-->
+
+<!--            <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">-->
+<!--              <div class="portfolio-content h-100">-->
+<!--                <img src="assets/img/projects/repairs-2.jpg" class="img-fluid" alt="">-->
+<!--                <div class="portfolio-info">-->
+<!--                  <h4>Repairs 2</h4>-->
+<!--                  <p>Lorem ipsum, dolor sit amet consectetur</p>-->
+<!--                  <a href="assets/img/projects/repairs-2.jpg" title="Repairs 2" data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>-->
+<!--                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>&lt;!&ndash; End Projects Item &ndash;&gt;-->
+
+<!--            <div class="col-lg-4 col-md-6 portfolio-item filter-design">-->
+<!--              <div class="portfolio-content h-100">-->
+<!--                <img src="assets/img/projects/design-2.jpg" class="img-fluid" alt="">-->
+<!--                <div class="portfolio-info">-->
+<!--                  <h4>Design 2</h4>-->
+<!--                  <p>Lorem ipsum, dolor sit amet consectetur</p>-->
+<!--                  <a href="assets/img/projects/design-2.jpg" title="Repairs 2" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>-->
+<!--                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>&lt;!&ndash; End Projects Item &ndash;&gt;-->
+
+<!--            <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">-->
+<!--              <div class="portfolio-content h-100">-->
+<!--                <img src="assets/img/projects/remodeling-3.jpg" class="img-fluid" alt="">-->
+<!--                <div class="portfolio-info">-->
+<!--                  <h4>Remodeling 3</h4>-->
+<!--                  <p>Lorem ipsum, dolor sit amet consectetur</p>-->
+<!--                  <a href="assets/img/projects/remodeling-3.jpg" title="Remodeling 3" data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>-->
+<!--                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>&lt;!&ndash; End Projects Item &ndash;&gt;-->
+
+<!--            <div class="col-lg-4 col-md-6 portfolio-item filter-construction">-->
+<!--              <div class="portfolio-content h-100">-->
+<!--                <img src="assets/img/projects/construction-3.jpg" class="img-fluid" alt="">-->
+<!--                <div class="portfolio-info">-->
+<!--                  <h4>Construction 3</h4>-->
+<!--                  <p>Lorem ipsum, dolor sit amet consectetur</p>-->
+<!--                  <a href="assets/img/projects/construction-3.jpg" title="Construction 3" data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>-->
+<!--                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>&lt;!&ndash; End Projects Item &ndash;&gt;-->
+
+<!--            <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">-->
+<!--              <div class="portfolio-content h-100">-->
+<!--                <img src="assets/img/projects/repairs-3.jpg" class="img-fluid" alt="">-->
+<!--                <div class="portfolio-info">-->
+<!--                  <h4>Repairs 3</h4>-->
+<!--                  <p>Lorem ipsum, dolor sit amet consectetur</p>-->
+<!--                  <a href="assets/img/projects/repairs-3.jpg" title="Repairs 2" data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>-->
+<!--                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>&lt;!&ndash; End Projects Item &ndash;&gt;-->
+
+<!--            <div class="col-lg-4 col-md-6 portfolio-item filter-design">-->
+<!--              <div class="portfolio-content h-100">-->
+<!--                <img src="assets/img/projects/design-3.jpg" class="img-fluid" alt="">-->
+<!--                <div class="portfolio-info">-->
+<!--                  <h4>Design 3</h4>-->
+<!--                  <p>Lorem ipsum, dolor sit amet consectetur</p>-->
+<!--                  <a href="assets/img/projects/design-3.jpg" title="Repairs 3" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>-->
+<!--                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>&lt;!&ndash; End Projects Item &ndash;&gt;-->
+
+<!--          </div>&lt;!&ndash; End Projects Container &ndash;&gt;-->
+
+<!--        </div>-->
+
+<!--      </div>-->
+<!--    </section>&lt;!&ndash; End Our Projects Section &ndash;&gt;-->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Testimonials</h2>
+          <p>Quam sed id excepturi ccusantium dolorem ut quis dolores nisi llum nostrum enim velit qui ut et autem uia reprehenderit sunt deleniti</p>
+        </div>
+
+        <div class="slides-2 swiper">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                  <h3>Saul Goodman</h3>
+                  <h4>Ceo &amp; Founder</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    From the teaching staff to the laundry staff they all performed their works at the top most level.To the students this makes the time for reading applicable
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                  <h3>Sara Wilsson</h3>
+                  <h4>Engineer</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                     It was a home far away from home.
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                  <h3>Jena Karlis</h3>
+                  <h4>Business woman</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    It truly lives up to it's name. That is truly a school of choice
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                  <h3>Matt Brandon</h3>
+                  <h4>Freelancer</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    Choices have consequences but this choice doesn't have any at all.
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                  <h3>John Larson</h3>
+                  <h4>Entrepreneur</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    It was an experience that i will truly never forget.This is and still will be my school of choice
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+    <!-- ======= Recent Blog Posts Section ======= -->
+<!--    <section id="recent-blog-posts" class="recent-blog-posts">-->
+<!--      <div class="container" data-aos="fade-up"">-->
+
+<!--    -->
+<!--    -->
+<!--  <div class=" section-header">-->
+<!--        <h2>Recent Blog Posts</h2>-->
+<!--        <p>In commodi voluptatem excepturi quaerat nihil error autem voluptate ut et officia consequuntu</p>-->
+<!--      </div>-->
+
+<!--      <div class="row gy-5">-->
+
+<!--        <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">-->
+<!--          <div class="post-item position-relative h-100">-->
+
+<!--            <div class="post-img position-relative overflow-hidden">-->
+<!--              <img src="assets/img/blog/blog-1.jpg" class="img-fluid" alt="">-->
+<!--              <span class="post-date">December 12</span>-->
+<!--            </div>-->
+
+<!--            <div class="post-content d-flex flex-column">-->
+
+<!--              <h3 class="post-title">Eum ad dolor et. Autem aut fugiat debitis</h3>-->
+
+<!--              <div class="meta d-flex align-items-center">-->
+<!--                <div class="d-flex align-items-center">-->
+<!--                  <i class="bi bi-person"></i> <span class="ps-2">Julia Parker</span>-->
+<!--                </div>-->
+<!--                <span class="px-3 text-black-50">/</span>-->
+<!--                <div class="d-flex align-items-center">-->
+<!--                  <i class="bi bi-folder2"></i> <span class="ps-2">Politics</span>-->
+<!--                </div>-->
+<!--              </div>-->
+
+<!--              <hr>-->
+
+<!--              <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>-->
+
+<!--            </div>-->
+
+<!--          </div>-->
+<!--        </div>&lt;!&ndash; End post item &ndash;&gt;-->
+
+<!--        <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="200">-->
+<!--          <div class="post-item position-relative h-100">-->
+
+<!--            <div class="post-img position-relative overflow-hidden">-->
+<!--              <img src="assets/img/blog/blog-2.jpg" class="img-fluid" alt="">-->
+<!--              <span class="post-date">July 17</span>-->
+<!--            </div>-->
+
+<!--            <div class="post-content d-flex flex-column">-->
+
+<!--              <h3 class="post-title">Et repellendus molestiae qui est sed omnis</h3>-->
+
+<!--              <div class="meta d-flex align-items-center">-->
+<!--                <div class="d-flex align-items-center">-->
+<!--                  <i class="bi bi-person"></i> <span class="ps-2">Mario Douglas</span>-->
+<!--                </div>-->
+<!--                <span class="px-3 text-black-50">/</span>-->
+<!--                <div class="d-flex align-items-center">-->
+<!--                  <i class="bi bi-folder2"></i> <span class="ps-2">Sports</span>-->
+<!--                </div>-->
+<!--              </div>-->
+
+<!--              <hr>-->
+
+<!--              <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>-->
+
+<!--            </div>-->
+
+<!--          </div>-->
+<!--        </div>&lt;!&ndash; End post item &ndash;&gt;-->
+
+<!--        <div class="col-xl-4 col-md-6">-->
+<!--          <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="300">-->
+
+<!--            <div class="post-img position-relative overflow-hidden">-->
+<!--              <img src="assets/img/blog/blog-3.jpg" class="img-fluid" alt="">-->
+<!--              <span class="post-date">September 05</span>-->
+<!--            </div>-->
+
+<!--            <div class="post-content d-flex flex-column">-->
+
+<!--              <h3 class="post-title">Quia assumenda est et veritati tirana ploder</h3>-->
+
+<!--              <div class="meta d-flex align-items-center">-->
+<!--                <div class="d-flex align-items-center">-->
+<!--                  <i class="bi bi-person"></i> <span class="ps-2">Lisa Hunter</span>-->
+<!--                </div>-->
+<!--                <span class="px-3 text-black-50">/</span>-->
+<!--                <div class="d-flex align-items-center">-->
+<!--                  <i class="bi bi-folder2"></i> <span class="ps-2">Economics</span>-->
+<!--                </div>-->
+<!--              </div>-->
+
+<!--              <hr>-->
+
+<!--              <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>-->
+
+<!--            </div>-->
+
+<!--          </div>-->
+<!--        </div>&lt;!&ndash; End post item &ndash;&gt;-->
+
+<!--      </div>-->
+
+<!--      </div>-->
+<!--    </section>-->
+    <!-- End Recent Blog Posts Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="footer-content position-relative">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-info">
+              <h3>Pioneer school</h3>
+              <p>
+                Muranga <br>
+                Ke 625, Maragua<br><br>
+                <strong>Phone:</strong> +254 702 947 539<br>
+                <strong>Email:</strong> pioneerschool@gmail.com<br>
+              </p>
+              <div class="social-links d-flex mt-3">
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div><!-- End footer info column-->
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Performance</a></li>
+
+            </ul>
+          </div><!-- End footer links column-->
+
+        /<!-- End footer links column-->
+
+<!--          <div class="col-lg-2 col-md-3 footer-links">-->
+<!--            <h4>Hic solutasetp</h4>-->
+<!--            <ul>-->
+<!--              <li><a href="#">Molestiae accusamus iure</a></li>-->
+<!--              <li><a href="#">Excepturi dignissimos</a></li>-->
+<!--              <li><a href="#">Suscipit distinctio</a></li>-->
+<!--              <li><a href="#">Dilecta</a></li>-->
+<!--              <li><a href="#">Sit quas consectetur</a></li>-->
+<!--            </ul>-->
+<!--          </div>&lt;!&ndash; End footer links column&ndash;&gt;-->
+
+<!--          <div class="col-lg-2 col-md-3 footer-links">-->
+<!--            <h4>Nobis illum</h4>-->
+<!--            <ul>-->
+<!--              <li><a href="#">Ipsam</a></li>-->
+<!--              <li><a href="#">Laudantium dolorum</a></li>-->
+<!--              <li><a href="#">Dinera</a></li>-->
+<!--              <li><a href="#">Trodelas</a></li>-->
+<!--              <li><a href="#">Flexo</a></li>-->
+<!--            </ul>-->
+<!--          </div>&lt;!&ndash; End footer links column&ndash;&gt;-->
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-legal text-center position-relative">
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Pioneer school</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/ -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
